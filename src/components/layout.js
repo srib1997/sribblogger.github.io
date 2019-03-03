@@ -41,6 +41,7 @@ export default ({ children }) => (
             {data.site.siteMetadata.title}
           </h3>
         </Link>
+        
         <Link
           to={`/`}
           css={css`
@@ -59,6 +60,7 @@ export default ({ children }) => (
         >
          About
         </Link>
+        
         {children}
         <a css={css`
             margin-left: 5px;
