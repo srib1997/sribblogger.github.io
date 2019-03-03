@@ -45,6 +45,7 @@ export default ({ children }) => (
           to={`/`}
           css={css`
             float: right;
+            margin-left: 5px;
           `}
         >
         Home
@@ -53,11 +54,24 @@ export default ({ children }) => (
           to={`/about/`}
           css={css`
             float: right;
+            margin-left: 5px;
           `}
         >
          About
         </Link>
         {children}
+        <a css={css`
+            margin-left: 5px;
+          `}
+          href="https://github.com/srib1997">Github</a>
+          <a css={css`
+            margin-left: 5px;
+          `}
+          href="https://www.facebook.com/feng.xiao.127">Facebook</a>
+          <a css={css`
+            margin-left: 5px;
+          `}
+          href="https://twitter.com/srib1997">Twitter</a>
       </div>
     )}
   />
