@@ -15,7 +15,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          ComusLeong's Blogger
+          Srib's Blogger
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
